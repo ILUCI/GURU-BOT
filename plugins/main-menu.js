@@ -387,8 +387,8 @@ import {
   ◈ .xvid
   ◈ .xnxx
   ╰──────────⳹`
-  
-  let toolsmenu = `
+
+    let toolsmenu = `
 ╭───❮ *𝑻𝑶𝑶𝑳𝑺* ❯
 │  𝑵𝑶𝑾𝑨
 │  𝑸𝑹 <𝑻𝑬𝑿𝑻>
@@ -536,8 +536,8 @@ import {
    
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
-    ${botname} 🥵⁩ 」\n
-    Hii ${name} 𝑩𝑹𝑩𝒀 ☻︎
+    ${botname} あ⁩ 」\n
+    Hii ${name} 𝑩𝑬𝑩𝒀 🤭
     
     *${ucpn}* 
    
@@ -586,7 +586,7 @@ import {
 │  *17.* 𝑹𝑬𝑳𝑰𝑮𝑰𝑶𝑵 𝑴𝑬𝑵𝑼
 │  *18.* 𝑷𝑳𝑼𝑮𝑰𝑵 𝑴𝑬𝑵𝑼
 ╰─────────────⦁⳹
- ` 
+ ${readMore}` 
 ;
 
   
@@ -598,7 +598,8 @@ import {
     result,
     key,
     timeout: setTimeout(() => {
-      conn.sendMese: key
+      conn.sendMessage(m.chat, {
+          delete: key
       });
       delete conn.gurumenu[m.sender];
   }, 150 * 1000),
