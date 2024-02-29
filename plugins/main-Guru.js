@@ -1,28 +1,28 @@
 let handler = async m => m.reply(`
 
-≡  *GURU  ┃ ᴮᴼᵀ*   GROUPS
+≡  *𝑴𝑰𝑨  ┃ ᴍᴅ*   GROUPS
 
 ─────────────
 ▢ Join public bot group and support
-https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp
+https://chat.whatsapp.com/HuQXSSgC80hERPfi4D4D2i
 
 ▢ Group 2
-https://chat.whatsapp.com/LwLQab5mZVW6WWRbBPnDGC
+https://chat.whatsapp.com/L9kqKKZpQY2BrqHabqfa0I
 
 ▢ Group 3
-https://chat.whatsapp.com/Jn9qVerYN6Q1L0vlVFe2XL
+https://chat.whatsapp.com/IyEWsH5yjEQ58PTIAkWifp
 
 ─────────────
 ≡ Disabled links? enter here! 
 
 ▢ Group WhatsApp 
- https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp
+ https://chat.whatsapp.com/HuQXSSgC80hERPfi4D4D2i
 ─────────────
 ▢ *Owner Telegram*
- https://t.me/i_want_to_be_isekaied
+ https://t.me/LUCIZR
 
 ▢ *YouTube*
-• https://www.youtube.com/@Asliguru
+• https://www.youtube.com/@I.AMLUCI
 
 
 `.trim())
