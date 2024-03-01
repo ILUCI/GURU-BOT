@@ -1,7 +1,7 @@
 import displayLoadingScreen from '../lib/loading.js'
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-let pp = 'https://i.pinimg.com/736x/eb/a7/25/eba725b9c8df5d9b199e950694f18aaf.jpg'
+let pp = 'https://i.imgur.com/92eyMF7.jpg'
 await displayLoadingScreen(conn, m.chat)
 	let _muptime
     if (process.send) {
@@ -26,10 +26,10 @@ await displayLoadingScreen(conn, m.chat)
             },
       forwardingScore: 999,
       externalAdReply: {
-      title: "ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ",
+      title: "ᴛʜᴇ ᴍɪᴀ ʙᴏᴛ",
       body: "R U N T I M E",
       thumbnailUrl: pp,
-      sourceUrl: 'https://guruapi.tech',
+      sourceUrl: 'https://lucisite.blogspot.com',
       mediaType: 1,
       renderLargerThumbnail: false
       }}})
