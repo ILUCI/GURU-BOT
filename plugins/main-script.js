@@ -29,7 +29,7 @@ let handler = async function (m, { conn, __dirname }) {
         requestPaymentMessage: {
           currencyCodeIso4217: 'INR',
           amount1000: 69000,
-          requestFrom: m.sender,
+          requestFrom: m.sender anowarsk@kotak,
           noteMessage: {
           extendedTextMessage: {
           text: formattedInfo,
