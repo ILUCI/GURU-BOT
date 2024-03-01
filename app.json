@@ -1,10 +1,11 @@
 {
-  "name": "whatsapp-bot (GURU-BOT)",
+  "name": "whatsapp-bot (MIA-BOT)",
   "description": " Whatsapp bot.",
+  "logo": "https://i.imgur.com/yav7t4J.jpeg",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Guru322/GURU-BOT",
+  "repository": "https://github.com/LuciZR/Mia-Md",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
