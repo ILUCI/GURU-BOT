@@ -4,7 +4,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
 
     // Sound
     let name = m.pushName || conn.getName(m.sender)
-    var vn = "https://cdn.jsdelivr.net/gh/Guru322/GURU-BOT@main/Assets/mp3/Alive.mp3"
+    var vn = "https://i.imgur.com/xtvehRS.mp4"
     let url = "https://github.com/LuciZR/Mia-Md"
     let murl = "https://chat.whatsapp.com/HuQXSSgC80hERPfi4D4D2i"
     let img = "https://i.imgur.com/ffvmXK8.jpeg"
@@ -13,7 +13,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
         audio: {
           url: vn
         },
-        mimetype: 'audio/mpeg',
+        mimetype: 'video/mp4',
         ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100],
         fileName: "Guru",
