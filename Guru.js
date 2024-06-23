@@ -363,7 +363,7 @@ async function connectionUpdate(update) {
     conn.logger.info(await global.reloadHandler(true).catch(console.error))
   }
   if (code && code == DisconnectReason.restartRequired) {
-    conn.logger.info(chalk.yellow('\n🚩Restart Required... Restarting'))
+    conn.logger.info(chalk.yellow('\n🔁Restart Required... Restarting'))
     process.send('reset')
   }
 
@@ -374,7 +374,7 @@ async function connectionUpdate(update) {
   if (connection === 'open') {
     const { jid, name } = conn.user
 
-    let msgf = `Hai🤩${name} Congrats you have successfully deployed GURU-BOT\nJoin my support Group for any Query\n https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp`
+    let msgf = `Hello 😁${name} Congrats you have successfully deployed мια 𝙼𝙳 ⚠︎\nJoin my support Group for any Query\n https://whatsapp.com/channel/0029Va9S1ZW17En4Yh6hz63R`
 
     let gmes = conn.sendMessage(
       jid,
@@ -387,7 +387,7 @@ async function connectionUpdate(update) {
       }
     )
 
-    conn.logger.info(chalk.yellow('\n🚩 R E A D Y'))
+    conn.logger.info(chalk.yellow('\nR U N 🏃'))
   }
 
   if (connection == 'close') {
