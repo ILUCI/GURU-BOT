@@ -514,7 +514,7 @@ const handler = async (m, { conn, command, text, args, usedPrefix }) => {
   }
   const infoText = `
    > ${botname}  」\n
-- Hii ${name} Senpai
+- Hii ${name} Beby 🥱
     
 - *${ucpn}* 
    
@@ -536,7 +536,7 @@ const handler = async (m, { conn, command, text, args, usedPrefix }) => {
 ⛥ *Uptime:* ${muptime}
 ⛥ *Database:*  ${totalreg}
 ╰──────────⳹
-> © Guru Sensei\n\n
+> © gg.gg/zr-md\n\n
 ${readMore}
 乂───『 *I N F O  C M D*』───乂 
 │ *${totalfeatures}* Commands
@@ -617,56 +617,56 @@ handler.before = async (m, { conn }) => {
   if (choice === '1') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: botmenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: botmenu },
       { quoted: fcontact }
     )
   } else if (choice === '2') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: ownermenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: ownermenu },
       { quoted: fcontact }
     )
   } else if (choice === '3') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: groupmenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: groupmenu },
       { quoted: fcontact }
     )
   } else if (choice === '4') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: funmenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: funmenu },
       { quoted: fcontact }
     )
   } else if (choice === '5') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: reactmenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: reactmenu },
       { quoted: fcontact }
     )
   } else if (choice === '6') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: dlmenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: dlmenu },
       { quoted: fcontact }
     )
   } else if (choice === '7') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: groupmenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: groupmenu },
       { quoted: fcontact }
     )
   } else if (choice === '8') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: logomenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: logomenu },
       { quoted: fcontact }
     )
   } else if (choice === '9') {
     await conn.sendMessage(
       m.chat,
       {
-        image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' },
         caption: stickermenu,
       },
       { quoted: fcontact }
@@ -674,43 +674,43 @@ handler.before = async (m, { conn }) => {
   } else if (choice === '10') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: audiomenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: audiomenu },
       { quoted: fcontact }
     )
   } else if (choice === '11') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: newsmenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: newsmenu },
       { quoted: fcontact }
     )
   } else if (choice === '12') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: economy },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: economy },
       { quoted: fcontact }
     )
   } else if (choice === '13') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: animemenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: animemenu },
       { quoted: fcontact }
     )
   } else if (choice === '14') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: nsfwmenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: nsfwmenu },
       { quoted: fcontact }
     )
   } else if (choice === '15') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: toolsmenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: toolsmenu },
       { quoted: fcontact }
     )
   } else if (choice === '16') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: Aimenu },
+      { image: { url: 'https://raw.githubusercontent.com/LuciZR/Mia-Md/main/MIA.jpg' }, caption: Aimenu },
       { quoted: fcontact }
     )
   } else if (choice === '17') {
