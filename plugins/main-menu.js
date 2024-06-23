@@ -488,7 +488,7 @@ const handler = async (m, { conn, command, text, args, usedPrefix }) => {
   let _uptime = process.uptime() * 1000
   let _muptime
   if (process.send) `
-    ${botname} あ⁩ 」\n
+    ${botname} 」\n
     Hii ${name} 𝑩𝑬𝑩𝒀 🤭
     
     *${ucpn}* 
@@ -538,8 +538,8 @@ const handler = async (m, { conn, command, text, args, usedPrefix }) => {
 │  *17.* 𝑹𝑬𝑳𝑰𝑮𝑰𝑶𝑵 𝑴𝑬𝑵𝑼
 │  *18.* 𝑷𝑳𝑼𝑮𝑰𝑵 𝑴𝑬𝑵𝑼
 ╰─────────────⦁⳹
- ${readMore} 
- gg.gg/zr-md`  {
+ ${readMore} gg.gg/zr-md 
+ `  {
     process.send('uptime')
     _muptime =
       (await new Promise(resolve => {
