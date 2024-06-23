@@ -20,7 +20,7 @@ GURU-BOT- Simple Multi Device whatsapp bot.
 
 ***
 
-#### SETUP
+#### SETUP 
 
 1. Fork the repo
     <br>
