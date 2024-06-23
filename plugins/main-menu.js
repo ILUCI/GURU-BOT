@@ -581,7 +581,7 @@ const handler = async (m, { conn, command, text, args, usedPrefix }) => {
       externalAdReply: {
         title: 'ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ',
         body: 'ᴍᴇɴᴜ',
-        thumbnailUrl: 'https://i.pinimg.com/736x/67/4b/41/674b416d858ce262be0c53253b3f1dcc.jpg',
+        thumbnailUrl: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567',
         sourceUrl: 'https://guruapi.tech',
         mediaType: 1,
         renderLargerThumbnail: false,
@@ -615,56 +615,56 @@ handler.before = async (m, { conn }) => {
   if (choice === '1') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: botmenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: botmenu },
       { quoted: fcontact }
     )
   } else if (choice === '2') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: ownermenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: ownermenu },
       { quoted: fcontact }
     )
   } else if (choice === '3') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: groupmenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: groupmenu },
       { quoted: fcontact }
     )
   } else if (choice === '4') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: funmenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: funmenu },
       { quoted: fcontact }
     )
   } else if (choice === '5') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: reactmenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: reactmenu },
       { quoted: fcontact }
     )
   } else if (choice === '6') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: dlmenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: dlmenu },
       { quoted: fcontact }
     )
   } else if (choice === '7') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: groupmenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: groupmenu },
       { quoted: fcontact }
     )
   } else if (choice === '8') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: logomenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: logomenu },
       { quoted: fcontact }
     )
   } else if (choice === '9') {
     await conn.sendMessage(
       m.chat,
       {
-        image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' },
         caption: stickermenu,
       },
       { quoted: fcontact }
@@ -672,50 +672,50 @@ handler.before = async (m, { conn }) => {
   } else if (choice === '10') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: audiomenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: audiomenu },
       { quoted: fcontact }
     )
   } else if (choice === '11') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: newsmenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: newsmenu },
       { quoted: fcontact }
     )
   } else if (choice === '12') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: economy },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: economy },
       { quoted: fcontact }
     )
   } else if (choice === '13') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: animemenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: animemenu },
       { quoted: fcontact }
     )
   } else if (choice === '14') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: nsfwmenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: nsfwmenu },
       { quoted: fcontact }
     )
   } else if (choice === '15') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: toolsmenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: toolsmenu },
       { quoted: fcontact }
     )
   } else if (choice === '16') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: Aimenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: Aimenu },
       { quoted: fcontact }
     )
   } else if (choice === '17') {
     await conn.sendMessage(
       m.chat,
       {
-        image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' },
         caption: religionmenu,
       },
       { quoted: fcontact }
@@ -723,7 +723,7 @@ handler.before = async (m, { conn }) => {
   } else if (choice === '18') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: pluginmenu },
+      { image: { url: 'https://camo.githubusercontent.com/4c60363d22bd92cfa1ad587fb0eda02062f2642f54cf845e3090b8b3e44e659e/68747470733a2f2f692e696d6775722e636f6d2f5456686d4546592e6a706567' }, caption: pluginmenu },
       { quoted: fcontact }
     )
   } else {
